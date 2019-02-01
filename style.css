@@ -1,0 +1,142 @@
+html {
+    background-color: #1a1f24;
+}
+
+body {
+    min-height: 100vh;
+	background: linear-gradient(
+		to bottom,
+		#89c3eb 0%,
+		#abd3ee 20%,
+		#89c3eb 20.1%,
+		#344e60 100%
+    );
+}
+
+#home {
+	background: url(img/167ddd5cc9ac665866fb94826059023c-1000.jpg) no-repeat center top fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding: 15% 0%;
+}
+
+#navbar {
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    position: fixed;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbg-dark {
+    background-color: #1a1f24;
+}
+
+.navbar-hide {
+    transform: translateY(-200%);
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+    vertical-align: middle;
+    color: whitesmoke;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.padding {
+	padding: 50px 0;
+}
+
+.padding img {
+	width: 100%;
+}
+
+#fixed1 {
+	background: url(img/167ddd5cc9ac665866fb94826059023c-1000.jpg)
+		no-repeat center top fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding: 15% 0%;
+}
+
+#fixed2 {
+	background: url(img/expedition1.jpg) no-repeat center top fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding: 15% 0%;
+}
+
+#fixed3 {
+	background: url(img/Snowy-Penguin-Wallpaper.jpg) no-repeat center top fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding: 15% 0%;
+}
+
+@media (max-width 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+/* Style Quotation */
+.quotation {
+	border-left: 5px solid lightgrey;
+	background-color: rgb(231, 231, 231);
+	color: grey;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	margin: 20px 0px;
+	padding: 5px 20px;
+}
+
+.quotation * {
+	margin: 0px;
+}
+
+.quotation > .signature {
+	text-align: right;
+}
+
+.quotation h1:first-of-type {
+	text-align: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+}
+
+.quotation h1:last-of-type {
+	text-align: right;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+}
